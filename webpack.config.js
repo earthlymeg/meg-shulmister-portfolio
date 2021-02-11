@@ -1,37 +1,49 @@
-const HtmlWebPackPlugin = require( 'html-webpack-plugin' );
-const path = require( 'path' );
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const port = process.env.PORT || 3003;
 
 module.exports = {
-    context: __dirname,
-    entry: './client/index.js',
-    output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'main.js',
-        publicPath: '/',
-    },
-    devServer: {
-        historyApiFallback: true
-    },
-    module: {
-        rules: [
-            {
-                test: /\.js$/,
-                use: 'babel-loader',
-            },
-            {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader'],
-            },
-            {
-                test: /\.(png|j?g|svg|gif)?$/,
-                use: 'file-loader'
+  mode: 'development',  
+  entry: './client/index.js',
+//   output: {
+//     filename: 'bundle.[hash].js'
+//   },
+  devtool: 'inline-source-map',
+  module: {
+    rules: [
+      {
+        test: /\.(js)$/,
+        exclude: /node_modules/,
+        use: ['babel-loader']
+      },
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: 'style-loader'
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+              localsConvention: 'camelCase',
+              sourceMap: true
             }
+          }
         ]
-    },
-    plugins: [
-        new HtmlWebPackPlugin({
-            template: path.resolve(__dirname, 'public/index.html'),
-            filename: 'index.html'
-        })
+      }
     ]
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './client/index.html',
+    })
+  ],
+  devServer: {
+    host: 'localhost',
+    port: port,
+    historyApiFallback: true,
+    open: true
+  }
 };
