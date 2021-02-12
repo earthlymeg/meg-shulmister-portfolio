@@ -1,8 +1,9 @@
 import React from 'react';
+import './portfolio.css'
 
 const App = () => {
     return (
-        <div>
+        <div className="App">
             Welcome to my portfolio
         </div>
     );
