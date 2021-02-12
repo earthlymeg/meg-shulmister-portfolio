@@ -1,9 +1,43 @@
-body {
-    background-color: rgb(36, 34, 65);
+*, *:after, *:before {
+	box-sizing: border-box;
 }
 
+/* html {
+    background: url(./andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg) no-repeat center fixed;     
+    background-size: cover;
+}  */
+
+/* body {
+	font-family: "Inter", sans-serif;
+	background-color:#1DB9D4;
+} */
+
+
 .App {
-color: white;
-font-size: 40px;
-text-align: center;
+    background: url(./andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg) no-repeat center fixed;     
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    position: absolute;
+
+}
+
+.name {
+    position: absolute;
+    right: 40px;
+    bottom: 40px
+}
+
+.nav{
+    /* background-color: rgba(0, 0, 0, 0.657); */
+    background-color: rgb(20, 19, 27);
+
+    opacity: 95%;
+    border-radius: 8px;
+    width: 220px;
+    height: 600px;
+    position: absolute;
+    left: 20px;
+    top: 60px
 }
