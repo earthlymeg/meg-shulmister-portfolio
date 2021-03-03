@@ -1,6 +1,7 @@
 import { Row, Col, Grid, Container, navbar } from 'react-bootstrap';
 import React, {useEffect, useState} from 'react';
 import './portfolio.css'
+import About from './components/About'
 
 
 const App = () => {
@@ -42,13 +43,13 @@ const App = () => {
                     </a>
                 </nav>
                 {headerView ? <nav class="navbar fixed-bottom header justify-content-end">
-                <span className="header">I'm <br></br>Meg <br></br>Shulmister</span>
+                <span className="header">I am<br></br>Meg <br></br>Shulmister</span>
                 </nav> : null}
                 </section>
             </Container>
             <Container >
                 <section id="about">
-                    This is my about zone
+                    <About />
                 </section>
                 <section id="projects">
                     This is my projects zone

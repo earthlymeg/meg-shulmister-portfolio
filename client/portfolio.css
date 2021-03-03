@@ -2,17 +2,6 @@
 	box-sizing: border-box;
 }
 
-/* html {
-    background: url(./andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg) no-repeat center fixed;     
-    background-size: cover;
-}  */
-
-/* body {
-	font-family: "Inter", sans-serif;
-	background-color:#1DB9D4;
-} */
-
-
 .App {
     background: url(./andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg) no-repeat center fixed;     
     background-size: cover;
@@ -22,7 +11,17 @@
     position: absolute;
 
 }
+@font-face {
+    font-family: 'Apple';
+    src:  url('./fonts/HomemadeApple-Regular\ copy.ttf')
 
+  }
+
+  @font-face {
+    font-family: 'RockSalt';
+    src:  url('./fonts/RockSalt-Regular.ttf')
+
+  }  
 @media only screen and (max-width: 600px) {
     /* CSS that should be displayed if width is equal to or less than 800px goes here */
     .header {
@@ -35,6 +34,7 @@
 }
 
 .header {
+    /* font-family: 'RockSalt'; */
     font-size: 70px;
     text-align: right;
     font-weight: 700;
@@ -70,3 +70,13 @@ body:not(#home) {
 
 }
 
+.about{
+    /* text-align: center !important; */
+    font-size: 60px;
+    padding: 20px;
+}
+
+
+.info{
+    text-align: center;
+}
