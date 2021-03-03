@@ -14,7 +14,7 @@ const App = () => {
           setcurrentY(window.pageYOffset)
          
         }
-        if (currentY>=54) {
+        if (currentY>=50) {
             console.log('currentY > 54')
           setheaderView(false);
         } else {
@@ -22,10 +22,6 @@ const App = () => {
         }
       }, [currentY]);
   
-
-            console.log(currentY, headerView)
-
-
 
     return (
         <div className="App" >
@@ -44,9 +40,10 @@ const App = () => {
                         Contact
                     </a>
                 </nav>
-                <nav class="navbar fixed-bottom header justify-content-end">
+                {headerView ? <nav class="navbar fixed-bottom header justify-content-end">
                 <span className="header">I'm <br></br>Meg <br></br>Shulmister</span>
-                </nav>
+                </nav> : null}
+                
                 
                 
             </Container>
