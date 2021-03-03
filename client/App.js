@@ -1,12 +1,35 @@
 import { Row, Col, Grid, Container, navbar } from 'react-bootstrap';
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './portfolio.css'
 
 
 const App = () => {
+
+    const [currentY, setcurrentY] = useState(0);
+    const [headerView, setheaderView] = useState(true);
+
+    useEffect(() => {
+        window.onscroll = () => {
+          //console.log(window.pageYOffset)
+          setcurrentY(window.pageYOffset)
+         
+        }
+        if (currentY>=54) {
+            console.log('currentY > 54')
+          setheaderView(false);
+        } else {
+            setheaderView(true);
+        }
+      }, [currentY]);
+  
+
+            console.log(currentY, headerView)
+
+
+
     return (
-        <div className="App">
-            <Container >
+        <div className="App" >
+            <Container id="home" >
                 <nav class="navbar navbar-light bg-dark">
                     <a class="navbar-brand" href="#">
                         Home
@@ -24,7 +47,11 @@ const App = () => {
                 <nav class="navbar fixed-bottom header justify-content-end">
                 <span className="header">I'm <br></br>Meg <br></br>Shulmister</span>
                 </nav>
-                {/* <section id="about">
+                
+                
+            </Container>
+            <Container>
+                <section id="about">
                     This is my about zone
                 </section>
                 <section id="projects">
@@ -33,14 +60,8 @@ const App = () => {
                 <section id="contact">
                     This is my contact zone
                 </section>
-                 */}
                 
-                
-                
-        
-                {/* <div className="nav"> */}
-                {/* </div> */}
-            </Container>
+                </Container>
         </div>
     );
 };
