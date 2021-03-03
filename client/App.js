@@ -25,8 +25,9 @@ const App = () => {
 
     return (
         <div className="App" >
-            <Container id="home" >
-                <nav class="navbar navbar-light bg-dark">
+            <Container  >
+                <section id="home" className="stuff">
+                <nav class="navbar navbar-dark">
                     <a class="navbar-brand" href="#">
                         Home
                     </a>
@@ -43,11 +44,9 @@ const App = () => {
                 {headerView ? <nav class="navbar fixed-bottom header justify-content-end">
                 <span className="header">I'm <br></br>Meg <br></br>Shulmister</span>
                 </nav> : null}
-                
-                
-                
+                </section>
             </Container>
-            <Container>
+            <Container >
                 <section id="about">
                     This is my about zone
                 </section>

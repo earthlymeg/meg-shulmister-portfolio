@@ -60,7 +60,13 @@
 }
 
 section {
-  width: 100%;
+  width: 100% !important;
   height: 100vh;
-  color: black;
+  color: white;
 }
+body:not(#home) {
+    background-color:#3a6337;
+    /* background-color: #d49c8c; */
+
+}
+
