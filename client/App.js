@@ -43,7 +43,7 @@ const App = () => {
                     </a>
                 </nav>
                 {headerView ? <nav class="navbar fixed-bottom header justify-content-end">
-                <span className="header">I am<br></br>Meg <br></br>Shulmister</span>
+                <span className="header">Meg <br></br>Shulmister</span>
                 </nav> : null}
                 </section>
             </Container>

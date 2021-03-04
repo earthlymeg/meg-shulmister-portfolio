@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col, Grid, Container, navbar } from 'react-bootstrap';
 import '../portfolio.css'
+import Meg from '../images/headshot.jpg';
 
 function About(props) {
     return (
@@ -10,14 +11,15 @@ function About(props) {
             </Row>
             <Row>
                 <Col className="justify-content-center info">
+                {/* <i class="fab fa-pagelines"></i>  */}
                     <h2>Thank you for being here.</h2>
                     <br></br>
-                    <h3>I'm a Front-end Developer.</h3>
+                    <h3>My name is Meg and I'm a Front-End Deve</h3>
                     <br></br>
                     <h3>I am inspired by the natural world around me</h3>
             </Col>
-            <Col style={{backgroundColor: 'blue'}}>
-            Photo
+            <Col>
+            <img src={Meg} alt="Meg" className="headshot"/>
                 </Col>
             </Row>
 

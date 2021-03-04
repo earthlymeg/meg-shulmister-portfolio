@@ -25,7 +25,7 @@
 @media only screen and (max-width: 600px) {
     /* CSS that should be displayed if width is equal to or less than 800px goes here */
     .header {
-        font-size: 20px;
+        font-size: 60px !important;
     }
     .navbar.fixed-bottom.header{
         padding: 0;
@@ -35,7 +35,7 @@
 
 .header {
     /* font-family: 'RockSalt'; */
-    font-size: 70px;
+    font-size: 120px;
     text-align: right;
     font-weight: 700;
     text-shadow: 3px 3px 9px rgba(88, 150, 150, 0.66);
@@ -65,7 +65,7 @@ section {
   color: white;
 }
 body:not(#home) {
-    background-color:#3a6337;
+    background-color:#10240f;
     /* background-color: #d49c8c; */
 
 }
@@ -73,10 +73,16 @@ body:not(#home) {
 .about{
     /* text-align: center !important; */
     font-size: 60px;
-    padding: 20px;
+    padding: 30px;
 }
 
 
 .info{
     text-align: center;
+}
+
+.headshot {
+    width: 400px !important;
+    height: 400px !important;
+    border-radius: 50%;
 }
