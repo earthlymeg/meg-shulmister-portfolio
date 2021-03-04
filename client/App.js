@@ -28,7 +28,7 @@ const App = () => {
         <div className="App" >
             <Container  >
                 <section id="home" className="stuff">
-                <nav class="navbar navbar-dark">
+                <nav class="navbar fixed-top navbar-dark">
                     <a class="navbar-brand" href="#">
                         Home
                     </a>
