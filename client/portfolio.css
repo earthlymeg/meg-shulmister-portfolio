@@ -10,7 +10,7 @@ body {
 
 
 .App {
-    background: url(./andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg) no-repeat center fixed;     
+    background: url(./images/rainbow.jpg) no-repeat center fixed;     
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -92,7 +92,7 @@ section {
   color: white;
 }
 body:not(#home) {
-    background-color:#10240f;
+    background-color:#1e291e;
     /* background-color: #d49c8c; */
 
 }
@@ -135,3 +135,40 @@ body:not(#home) {
     font-family: 'Mont';
 }
 
+.contact{
+    font-family: 'Apple';
+    font-size: 50px;
+    margin-bottom: 150px;
+}
+
+.contact-form{
+    /* background-color: rgba(40, 211, 40, 0.452); */
+    height: 600px;
+}
+
+.hl:hover{
+    color:#6cc3d5;
+    text-decoration: underline !important;
+    transition: all .4s ease;
+
+} 
+.al:hover{
+color: #e99765;
+text-decoration: underline !important;
+transition: all 1s ease;
+
+}
+
+.pl:hover{
+  color:#e4da53;
+  text-decoration: underline !important;
+  transition: all .4s ease;
+
+}
+
+.cl:hover{
+    color:#dd8ed9;
+    text-decoration: underline !important;
+    transition: all .4s ease;
+
+}  

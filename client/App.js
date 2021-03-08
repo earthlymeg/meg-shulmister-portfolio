@@ -2,6 +2,7 @@ import { Row, Col, Grid, Container, navbar } from 'react-bootstrap';
 import React, {useEffect, useState} from 'react';
 import './portfolio.css'
 import About from './components/About'
+import Contact from './components/Contact'
 
 
 const App = () => {
@@ -28,17 +29,17 @@ const App = () => {
         <div className="App" >
             <Container  >
                 <section id="home" className="stuff">
-                <nav class="navbar navbar-expand-md fixed-top">
-                    <a class="navbar-brand" href="#">
+                <nav class="navbar navbar-expand-md">
+                    <a class="navbar-brand hl" href="#">
                         Home
                     </a>
-                    <a class="navbar-brand" href="#about">
+                    <a class="navbar-brand al" href="#about">
                         About
                     </a>
-                    <a class="navbar-brand" href="#projects">
+                    <a class="navbar-brand pl" href="#projects">
                         Projects
                     </a>
-                    <a class="navbar-brand" href="#contact">
+                    <a class="navbar-brand cl" href="#contact">
                         Contact
                     </a>
                 </nav>
@@ -48,14 +49,14 @@ const App = () => {
                 </section>
             </Container>
             <Container >
-                <section id="about">
+                <section id="about" > 
                     <About />
                 </section>
                 <section id="projects">
                     This is my projects zone
                 </section>
                 <section id="contact">
-                    This is my contact zone
+                    <Contact />
                 </section>
                 
                 </Container>
