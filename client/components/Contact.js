@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Contact = () => {
     return (
-        <Container className="justify-content-center">
+        <Container fluid className="justify-content-center">
             <Row className="justify-content-center">
                 <span className="contact">
                     Connect with me.

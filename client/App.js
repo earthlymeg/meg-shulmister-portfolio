@@ -27,7 +27,7 @@ const App = () => {
 
     return (
         <div className="App" >
-            <Container  >
+            <Container  fluid>
                 <section id="home" className="stuff">
                 <nav class="navbar-nav ml-auto">
                     <a class="navbar-brand hl" href="#">
@@ -48,7 +48,7 @@ const App = () => {
                 </nav> : null}
                 </section>
             </Container>
-            <Container >
+            <Container fluid>
                 <section id="about" > 
                     <About />
                 </section>
