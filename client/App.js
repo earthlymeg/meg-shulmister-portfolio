@@ -28,7 +28,7 @@ const App = () => {
         <div className="App" >
             <Container  >
                 <section id="home" className="stuff">
-                <nav class="navbar fixed-top navbar-dark">
+                <nav class="navbar navbar-expand-md fixed-top">
                     <a class="navbar-brand" href="#">
                         Home
                     </a>

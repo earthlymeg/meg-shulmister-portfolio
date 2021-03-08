@@ -29,10 +29,16 @@ body {
     src:  url('./fonts/RockSalt-Regular.ttf')
 
   }  
+  @font-face {
+    font-family: 'Mont';
+    src:  url('./fonts/Montserrat-Regular.ttf')
+
+  }  
 @media only screen and (max-width: 600px) {
     /* CSS that should be displayed if width is equal to or less than 800px goes here */
     .header {
         font-size: 60px !important;
+        
     }
     .navbar.fixed-bottom.header{
         padding: 0;
@@ -55,7 +61,7 @@ body {
 } */
 
 .header {
-    /* font-family: 'RockSalt'; */
+    font-family: 'Apple';
     font-size: 120px;
     text-align: right;
     font-weight: 700;
@@ -113,3 +119,19 @@ body:not(#home) {
     margin: auto;    
     display: block;
 }
+.navbar-brand {
+    padding: 20px !important;
+    margin: 20px !important;
+    color: white;
+    font-family: 'Mont';
+}
+
+.fancy-text{
+    font-family: 'Apple';
+
+}
+
+.reg-text{
+    font-family: 'Mont';
+}
+
