@@ -1,5 +1,5 @@
 import { Row, Col, Grid, Container, navbar } from 'react-bootstrap';
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import './portfolio.css'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -12,52 +12,54 @@ const App = () => {
 
     useEffect(() => {
         window.onscroll = () => {
-          //console.log(window.pageYOffset)
-          setcurrentY(window.pageYOffset)
-         
+            //console.log(window.pageYOffset)
+            setcurrentY(window.pageYOffset)
+
         }
-        if (currentY>=50) {
+        if (currentY >= 50) {
             console.log('currentY > 54')
-          setheaderView(false);
+            setheaderView(false);
         } else {
             setheaderView(true);
         }
-      }, [currentY]);
-  
+    }, [currentY]);
+
 
     return (
         <div className="App" >
-            <Container  fluid>
+            <Container fluid>
                 <section id="home" className="stuff">
-               <Row className="justify-content-center">
-                <Col>
-                <nav class="navbar-nav ml-auto">
-                    <a class="navbar-brand hl" href="#">
-                        Home
+                    <Row className="justify-content-center">
+                        <Col>
+                            <nav class="navbar-nav ml-auto">
+                                <a class="navbar-brand hl" href="#home">
+                                    Home
                     </a>
-                    <a class="navbar-brand al" href="#about">
-                        About
+                                <a class="navbar-brand al" href="#about">
+                                    About
                     </a>
-                    <a class="navbar-brand pl" href="#projects">
-                        Projects
+                                <a class="navbar-brand pl" href="#projects">
+                                    Work
                     </a>
-                    <a class="navbar-brand cl" href="#contact">
-                        Contact
+                                <a class="navbar-brand cl" href="#contact">
+                                    Contact
                     </a>
-                </nav>
-                </Col>
-                {/* <Col className="flower"> <img src={flower}/>
+                            </nav>
+                            
+                        </Col>
+                        {/* <Col className="flower"> <img src={flower}/>
 </Col> */}
-               <Col>
-                {headerView ? <nav class="navbar fixed-bottom header justify-content-end">
-                <span className="header">Meg <br></br>Shulmister</span>
-                </nav> : null}
-                </Col>
-                </Row>
+                        <Col>
+                            {headerView ? <nav class="navbar fixed-bottom header justify-content-end">
+                                <span className="header">Meg <br></br>Shulmister</span>
+                            </nav> : null}
+                        </Col>
+                    </Row>
                 </section>
             </Container>
             <Container fluid>
-                <section id="about" > 
+               
+                <section id="about" >
                     <About />
                 </section>
                 <section id="projects">
@@ -66,8 +68,8 @@ const App = () => {
                 <section id="contact">
                     <Contact />
                 </section>
-                
-                </Container>
+
+            </Container>
         </div>
     );
 };

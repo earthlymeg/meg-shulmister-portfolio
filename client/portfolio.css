@@ -6,12 +6,12 @@
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 html, body
 {
-    width: 100%;
+    width: 100vw !important;
     height: 100%;
     margin: 0px;
     padding: 0px;
@@ -171,6 +171,7 @@ padding:7px;
 .contact{
     font-family: 'Apple';
     font-size: 50px;
+    text-shadow: 3px 3px 9px rgba(40, 104, 112, 0.66);
     /* margin-top: 70px !important; */
 }
 
@@ -218,6 +219,12 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
+}
+
+#projects{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(192, 238, 174) 0%, rgba(148,187,233,1) 100%);
+    
 }
 
 a, a:hover {
@@ -296,3 +303,7 @@ a, a:hover {
      margin-top: 350px !important;
      margin-left: 80px;
  } */
+
+ .container-fluid {
+    max-width: 100%;
+  }

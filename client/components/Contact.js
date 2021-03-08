@@ -16,9 +16,9 @@ const Contact = () => {
                 </span>
                         <ul>
                             <li><a href="https://twitter.com/codeLikeALady" target="_blank" class="fa fa-lg fa-twitter"></a></li>
-                            <li><a href="#" class="fa fa-lg fa-github"></a></li>
-                            <li><a href="#" class="fa fa-lg fa-linkedin"></a></li>
-                            <li><a href="#" class="fa fa-envelope"></a></li>
+                            <li><a href="https://github.com/earthlymeg" target="_blank" class="fa fa-lg fa-github"></a></li>
+                            <li><a href="https://www.linkedin.com/in/meganshulmister019/" target="_blank"class="fa fa-lg fa-linkedin"></a></li>
+                            <li><a href="mailto:meganshulmister@gmail.com" target="_blank" class="fa fa-envelope"></a></li>
                         </ul>
                     </div>
 
