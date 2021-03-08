@@ -11,7 +11,7 @@ function About(props) {
                 <h1 className="fancy-text">About</h1>
             </Row>
             <Row className="justify-content-sm-center">
-                <Col sm={6} style={{backgroundColor:"pink"}}>
+                <Col sm={6} >
                     {/* <i class="fab fa-pagelines"></i>  */}
                     <h2 className="reg-text">Thank you for being here.</h2>
                     <br></br>
@@ -31,7 +31,7 @@ function About(props) {
                     <h4 className="fancy-text">I am always looking to make more meaningful connections.
                         <br></br><br></br></h4>
                 </Col>
-                <Col sm={6} className="justify-content-center" style={{backgroundColor:"yellow"}}>
+                <Col sm={6} className="justify-content-center">
                     <img src={Meg} alt="Meg" className="headshot" />
                 </Col>
             </Row>

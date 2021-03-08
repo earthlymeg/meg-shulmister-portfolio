@@ -4,8 +4,8 @@
 
 html, body
 {
-    width: 100%;
-    height: 100%;
+    /* width: 100vw;
+    height: 100%; */
     padding: 0;
     margin: 0;
 }
@@ -23,7 +23,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
-    width: 110vw;
+    width: 100vw;
     color: white;
     position: absolute;
 
@@ -158,13 +158,20 @@ section {
 .contact{
     font-family: 'Apple';
     font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 150px;
+    margin-top: 50px;
 }
 
 .contact-form{
     /* background-color: rgba(40, 211, 40, 0.452); */
-    height: 600px;
+    height: 700px;
+    
+
+
+}
+
+textarea#exampleFormControlTextarea1 {
+    background: white;
+    opacity: 20%;
 }
 
 .hl:hover{
@@ -193,15 +200,11 @@ transition: all 1s ease;
 #about{
     /* width:100vw !important;
     min-height: 100vh !important; */
-    background-color: blue;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     
 }
 
-.section-containter{
-  border-style: solid !important;
-  border-color: pink !important;
-  /* width: 100vw; */
-}
 
 #contact {
     background: url(./images/me.jpg);   
@@ -212,3 +215,4 @@ transition: all 1s ease;
     background-repeat: no-repeat;
     background-size: cover; 
 }
+

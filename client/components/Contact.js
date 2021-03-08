@@ -11,10 +11,7 @@ const Contact = () => {
             </Row>
             <Row>
                 <Col>
-                    socials
-                </Col>
-                <Col>
-                    <form className="contact-form">
+                <form className="contact-form">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="inputEmail4">Email</label>
@@ -32,6 +29,9 @@ const Contact = () => {
                         </div>
                         <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
+                </Col>
+                <Col>
+                   
                 </Col>
             </Row>
 
