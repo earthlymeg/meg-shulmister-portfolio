@@ -29,7 +29,7 @@ const App = () => {
         <div className="App" >
             <Container  >
                 <section id="home" className="stuff">
-                <nav class="navbar navbar-expand-md">
+                <nav class="navbar-nav ml-auto">
                     <a class="navbar-brand hl" href="#">
                         Home
                     </a>

@@ -43,6 +43,7 @@ body {
     .navbar.fixed-bottom.header{
         padding: 0;
         margin-right: -10px !important;
+        
     }
     .aboout{
         font-size: 20px;
@@ -71,19 +72,19 @@ body {
 .navbar.fixed-bottom.header{
     padding: 30px;
     margin-right: 20px;
+    width: 700px !important;
+    margin-left: 700px;
 }
-
-.nav{
-    /* background-color: rgba(0, 0, 0, 0.657); */
-    background-color: rgb(20, 19, 27);
-
+.navbar-nav.ml-auto{
+    
     opacity: 95%;
     border-radius: 8px;
     width: 220px;
     height: 600px;
     position: absolute;
     left: 20px;
-    top: 60px
+    top: 40px 
+
 }
 
 section {
@@ -124,6 +125,12 @@ body:not(#home) {
     margin: 20px !important;
     color: white;
     font-family: 'Mont';
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+    --darkreader-inline-color:#e8e6e3;
+    --darkreader-inline-bgimage: initial;
+    --darkreader-inline-bgcolor:#74231b;
+
 }
 
 .fancy-text{
@@ -148,27 +155,23 @@ body:not(#home) {
 
 .hl:hover{
     color:#6cc3d5;
-    text-decoration: underline !important;
     transition: all .4s ease;
 
 } 
 .al:hover{
 color: #e99765;
-text-decoration: underline !important;
 transition: all 1s ease;
 
 }
 
 .pl:hover{
   color:#e4da53;
-  text-decoration: underline !important;
   transition: all .4s ease;
 
 }
 
 .cl:hover{
-    color:#dd8ed9;
-    text-decoration: underline !important;
-    transition: all .4s ease;
+    color:#dd8ed9 !important;
+    transition: all .4s ease !important;
 
 }  
