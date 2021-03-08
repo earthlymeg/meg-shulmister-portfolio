@@ -1,5 +1,12 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+
 *, *:after, *:before {
 	box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 html, body
@@ -25,7 +32,6 @@ body {
     height: 100vh;
     width: 100vw;
     color: white;
-    position: absolute;
 
 }
 @font-face {
@@ -132,6 +138,8 @@ section {
     border-radius: 50%;
     margin: auto;    
     display: block;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.3);
+padding:7px;
 }
 .navbar-brand {
     padding: 20px !important;
@@ -148,6 +156,7 @@ section {
 
 .fancy-text{
     font-family: 'Apple';
+    text-shadow: 3px 3px 9px rgba(127, 88, 150, 0.66);
 
 }
 
@@ -158,21 +167,10 @@ section {
 .contact{
     font-family: 'Apple';
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 70px !important;
 }
 
-.contact-form{
-    /* background-color: rgba(40, 211, 40, 0.452); */
-    height: 700px;
-    
 
-
-}
-
-textarea#exampleFormControlTextarea1 {
-    background: white;
-    opacity: 20%;
-}
 
 .hl:hover{
     color:#6cc3d5;
@@ -208,7 +206,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 
 #contact {
     background: url(./images/me.jpg);   
-    height: 100%;
+    /* height: 100%; */
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -216,3 +214,84 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     background-size: cover; 
 }
 
+a, a:hover {
+	color: #000;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.socialbtnsbtnsbtns, .socialbtnsbtnsbtns ul, .socialbtnsbtnsbtns li {
+	margin: 0;
+	padding: 5px;
+}
+
+.socialbtnsbtnsbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    margin: 20px;
+    font-size: 80px;
+	color: #FFF;
+	text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	-webkit-text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	-moz-text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	-o-text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	transition: all ease-out 0.5s;
+	-moz-transition: all ease-out 0.5s;
+	-webkit-transition: all ease-out 0.5s;
+	-o-transition: all ease-out 0.5s;
+}
+
+.socialbtns .fa:hover {
+	color: #000;
+	text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-webkit-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-moz-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-o-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	transition: all ease 0.5s;
+	-moz-transition: all ease-in 0.5s;
+	-webkit-transition: all ease-in 0.5s;
+	-o-transition: all ease-in 0.5s;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .flower{
+     margin-top: 350px !important;
+     margin-left: 80px;
+ }

@@ -11,7 +11,7 @@ function About(props) {
                 <h1 className="fancy-text">About</h1>
             </Row>
             <Row className="justify-content-sm-center">
-                <Col sm={6} >
+                <Col sm={6} style={{paddingLeft: 50}}>
                     {/* <i class="fab fa-pagelines"></i>  */}
                     <h2 className="reg-text">Thank you for being here.</h2>
                     <br></br>

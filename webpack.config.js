@@ -20,7 +20,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
-        loader: 'file-loader',
+        loader: "file-loader?name=app/images/[name].[ext]",
         options: {
           name: '[path][name].[ext]'
         },
@@ -30,7 +30,7 @@ module.exports = {
         test: /\.(png|woff|woff2|eot|ttf|svg)$/,
         use: [
           {
-            loader: 'url-loader',
+            loader: "url-loader?name=app/images/[name].[ext]",
             options: {
               limit: 8192,
             },

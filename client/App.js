@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import './portfolio.css'
 import About from './components/About'
 import Contact from './components/Contact'
-
+import flower from './images/flower.png';
 
 const App = () => {
 
@@ -29,6 +29,8 @@ const App = () => {
         <div className="App" >
             <Container  fluid>
                 <section id="home" className="stuff">
+               <Row className="justify-content-center">
+                <Col>
                 <nav class="navbar-nav ml-auto">
                     <a class="navbar-brand hl" href="#">
                         Home
@@ -43,9 +45,15 @@ const App = () => {
                         Contact
                     </a>
                 </nav>
+                </Col>
+                <Col className="flower"> <img src={flower}/>
+</Col>
+               <Col>
                 {headerView ? <nav class="navbar fixed-bottom header justify-content-end">
                 <span className="header">Meg <br></br>Shulmister</span>
                 </nav> : null}
+                </Col>
+                </Row>
                 </section>
             </Container>
             <Container fluid>
