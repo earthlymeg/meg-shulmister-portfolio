@@ -46,8 +46,8 @@ const App = () => {
                     </a>
                 </nav>
                 </Col>
-                <Col className="flower"> <img src={flower}/>
-</Col>
+                {/* <Col className="flower"> <img src={flower}/>
+</Col> */}
                <Col>
                 {headerView ? <nav class="navbar fixed-bottom header justify-content-end">
                 <span className="header">Meg <br></br>Shulmister</span>

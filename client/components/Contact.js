@@ -8,7 +8,7 @@ const Contact = () => {
 
             </Row>
             <Row>
-                <Col>
+                <Col className="contact-col">
 
                     <div align="center" class="socialbtns">
                         <span className="contact">
