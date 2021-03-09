@@ -199,18 +199,18 @@ padding:7px;
 }
 
 .hl:hover{
-    color:#6cc3d5;
+    color:#6cc3d5 !important;
     transition: all .4s ease;
 
 } 
 .al:hover{
-color: #e99765;
+color: #e99765 !important;
 transition: all 1s ease;
 
 }
 
 .pl:hover{
-  color:#e4da53;
+  color:#e4da53 !important;
   transition: all .4s ease;
 
 }
