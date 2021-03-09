@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import './portfolio.css'
 import About from './components/About'
 import Contact from './components/Contact'
+import Projects from './components/Projects'
 import flower from './images/flower.png';
 
 const App = () => {
@@ -63,7 +64,7 @@ const App = () => {
                     <About />
                 </section>
                 <section id="projects">
-                    This is my projects zone
+                    <Projects/>
                 </section>
                 <section id="contact">
                     <Contact />
