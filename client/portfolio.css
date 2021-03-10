@@ -367,14 +367,17 @@ a, a:hover {
   .work-card{
       /* border-radius: 50% !important; */
       color: 'black';
-      border-radius: 50% !important;
-      height: 270px; 
-      width: 270px;
+      border-radius: 20px !important;
+      height: 370px; 
+      width: 600px;
       background-color: pink !important;
       font-size: 10px;
       opacity: 0.9;
-      margin-top: 20px;
-      text-align: center;
+            text-align: center;
+            margin: 0 auto; /* Added */
+            float: none; /* Added */
+            margin-bottom: 10px; /* Added */
+            margin-top: 10px;
     }
     
     .work-card:hover{
@@ -434,4 +437,11 @@ a, a:hover {
     font-size: 20px;
     font-family: 'Mont';
     box-shadow: black;
+ }
+
+ .projCol{
+    /* margin-left: 30px; */
+    display: flex;
+    align-content: center;
+
  }

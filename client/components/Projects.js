@@ -9,8 +9,8 @@ const Projects = () => {
             <Row className="justify-content-center">
                 <h1 className="fancy-text">My Work</h1>
             </Row>
-            <Row className="justify-content-center">
-                <Col className="justify-content-center work" align="right">
+            <Row className="justify-content-center" >
+                <Col className="align-item-center projCol" >
                     <Card className="work-card">
                         {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                         <Card.Body className="justify-content-center">
@@ -24,7 +24,7 @@ const Projects = () => {
                     </Card>
 
                 </Col>
-                <Col className="justify-content-center work">
+                <Col className="align-item-center projCol">
                 <Card className="work-card">
                         {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                         <Card.Body>
@@ -38,8 +38,8 @@ const Projects = () => {
                     </Card>
                 </Col>
             </Row>
-            <Row classNam="justify-content-center">
-                <Col className="justify-content-center work" align="right">
+            {/* <Row classNam="justify-content-center">
+                <Col className="justify-content-center work">
                 <Card className="work-card">
                         <Card.Body>
                             <Card.Title>Spotify Alarm Clock</Card.Title>
@@ -47,11 +47,10 @@ const Projects = () => {
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
                             </Card.Text>
-                            {/* <Button variant="primary">Go somewhere</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col className="justify-content-center work" align="left">
+                <Col className="justify-content-center work">
                 <Card className="work-card">
                         <Card.Body>
                             <Card.Title>Front End E-Commerce Website</Card.Title>
@@ -59,11 +58,11 @@ const Projects = () => {
                                 Some quick example text to build on the card title and make up the bulk of
                                 the card's content.
                             </Card.Text>
-                            {/* <Button variant="primary">Go somewhere</Button> */}
+                            
                         </Card.Body>
                     </Card>
                 </Col>
-            </Row>
+            </Row> */}
         </Container>
     );
 };

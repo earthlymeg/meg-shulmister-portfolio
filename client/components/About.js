@@ -24,6 +24,12 @@ function About(props) {
                     I am inspired by the natural world around me and the opportunity to use technology to make the
                     Earth a better place for all.
                     <br></br><br></br>
+                    <i class="fa fa-star"></i><strong>Front-End:</strong> JavaScript (ES5/ES6), React, CSS, HTML, Bootstrap <br></br>
+
+                    <i class="fa fa-star"></i><strong>Back-End:</strong> Node.js, Express, MySQL, PostgreSQL, MongoDB<br></br>
+                    <i class="fa fa-star"></i><strong>Tools:</strong> Git, Webpack, Babel, Docker, Heroku, npm, Jest <br></br>
+                    <i class="fa fa-star"></i><strong>Techniques:</strong> Agile Development, RESTful Design 
+                    <br></br><br></br>
                    
                     My passions include veganism, naturalism, spirituality, yoga, community-development, and so much more.
                     <br></br><br></br>
