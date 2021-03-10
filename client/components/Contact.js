@@ -8,7 +8,7 @@ const Contact = () => {
 
             </Row>
             <Row>
-                <Col className="contact-col">
+                <Col className="contact-col justify-content-lg-center">
 
                     <div align="center" class="socialbtns">
                         <span className="contact">
@@ -22,9 +22,6 @@ const Contact = () => {
                         </ul>
                     </div>
 
-
-                </Col>
-                <Col>
 
                 </Col>
             </Row>

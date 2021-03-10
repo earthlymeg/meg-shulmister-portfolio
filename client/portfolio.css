@@ -89,11 +89,35 @@ body {
     section{
         padding: 0;
         margin: 0;
-        width: 100%;
+        width: 100vw !important;
     }
    
     
 }
+
+
+@media only screen and (max-width: 1400px)  {
+    section{
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100vw !important;
+    }
+
+    html, body{
+        overflow-x: hidden !important; 
+    }
+
+    .header{
+        display: none;
+    }
+    .socialbtns .fa {
+        margin: 3px !important;
+        font-size: 35px !important;
+        text-align: left !important;
+    }
+
+}
+
 @media only screen and (max-width: 400px) {
     .App{
         overflow-x: hidden !important;
@@ -129,12 +153,13 @@ body {
 
 section {
    
-  width: 100vw;
+  width: 100vw !important;
     min-height: 100vh;
     
     top: 0;
     left: 0;
-    margin: 0 auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
   /* background-size: cover; */
   /* border-style: solid;
   border-color: yellow; */
@@ -239,6 +264,11 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
 }
 
 /* #projects{
@@ -353,4 +383,24 @@ a, a:hover {
     opacity: 100;
     cursor: pointer;
 
+  }
+
+  .sm-screen{
+      font-family: 'Apple';
+      font-size: 30px;
+      position: absolute;
+      margin: 0;
+    top: 50%;
+    left: 50%;
+    /* margin-top: -50px; */
+    /* margin-left: -50px; */
+    width: 100px;
+    height: 100px;
+  }
+
+  .sub-sm{
+      font-family: 'Mont';
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
   }

@@ -34,31 +34,7 @@ const App = () => {
                 <section id="home" className="stuff">
                     <Row className="justify-content-center">
                         <Col>
-                            {/* 
-                            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_nav"
-                                >
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-
-                                <div class="collapse navbar-collapse" id="main_nav" >
-                                    <ul class="nav navbar-nav">
-                                        <li><a class="navbar-brand hl" href="#home">
-                                            Home
-                                        </a></li>
-                                        <li><a class="navbar-brand al" href="#about">
-                                            About
-                                        </a></li>
-                                        <li><a class="navbar-brand pl" href="#projects">
-                                            Work
-                                        </a></li>
-                                        <li><a class="navbar-brand cl" href="#contact">
-                                            Contact
-                                        </a></li>
-                                    </ul>
-                                </div>
-                            </nav> */}
-                            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+                            <Navbar collapseOnSelect expand="lg" bg="none" variant="dark">
                                 {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
                                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -68,10 +44,14 @@ const App = () => {
                                         <Nav.Link href="#projects" className="navbar-brand pl">Work</Nav.Link>
                                         <Nav.Link href="#contact" className="navbar-brand cl">Contact</Nav.Link>
 
-                                       
+
                                     </Nav>
                                 </Navbar.Collapse>
                             </Navbar>
+                            <div className="d-lg-none sm-screen">
+                            Welcome! I'm Meg 😁 <br></br>
+                            <span className="sub-sm">I build web applications.</span>
+                            </div>
 
                         </Col>
                         {/* <Col className="flower"> <img src={flower}/>
