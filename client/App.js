@@ -54,14 +54,14 @@ const App = () => {
 
                                 <br></br> Meg Shulmister <br></br><br></br>
                                 <span className="e">I build web applications.</span>
-                                <span class="fa-stack fa-3x">
+                                {/* <span class="fa-stack fa-3x">
                                 <i className="fa fa-heart"></i>
                                     <span class="fa fa-stack-1x">
                                         <span className="text-heart">
-                                           {/* Contact Me */}
+                                         
     </span>
                                     </span>
-                                </span>
+                                </span> */}
                             </div>
 
                         </Col>

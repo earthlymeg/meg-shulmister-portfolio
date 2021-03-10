@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Col, Row, Card, Button } from 'react-bootstrap';
 import '../portfolio.css'
+import fec from '../images/fec.png';
 
 
 const Projects = () => {
@@ -12,7 +13,7 @@ const Projects = () => {
             <Row className="justify-content-center" >
                 <Col className="align-item-center projCol" >
                     <Card className="work-card">
-                        {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+                        <Card.Img variant="top" src={fec} />
                         <Card.Body className="justify-content-center">
                             <Card.Title style={{textAlign: 'center'}}>Front End E-Commerce Website</Card.Title>
                             <Card.Text>
