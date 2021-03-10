@@ -5,13 +5,14 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
 import flower from './images/flower.png';
+import paw from './images/paw.png'
 
 const App = () => {
 
     const [currentY, setcurrentY] = useState(0);
     const [headerView, setheaderView] = useState(true);
 
-
+  console.log(paw)
 
     useEffect(() => {
         window.onscroll = () => {
@@ -49,14 +50,18 @@ const App = () => {
                                 </Navbar.Collapse>
                             </Navbar>
                             <div className="d-lg-none sm-screen">
-                            Welcome! I'm Meg 😁 <br></br>
-                            <span className="sub-sm">I build web applications.</span>
+                            Welcome!
+                            <br></br> I'm Meg 😁 <br></br>
+                            <span className="e">I build web applications.</span>
                             </div>
 
                         </Col>
                         {/* <Col className="flower"> <img src={flower}/>
 </Col> */}
-                        <Col>
+                        <Col className="col2">
+                            <div align="right" className="paw">
+                                <img src={paw} className="paw"></img>
+                            </div>
                             {headerView ? <nav class="navbar fixed-bottom header justify-content-end">
                                 <span className="header">Meg <br></br>Shulmister</span>
                             </nav> : null}

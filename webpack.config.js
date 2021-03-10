@@ -27,17 +27,24 @@ module.exports = {
 
       },
       {
-        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        test: /\.(gif|svg|ttf)$/i,
         use: [
-          {
-            loader: "url-loader?name=app/images/[name].[ext]",
-            options: {
-              limit: 8192,
-            },
+        {
+          loader: 'url-loader',
+          options: {
+            limit: 10000
           }
-        ]
+        }
+      ]
 
-      }
+      },
+      // {
+      //   test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+      //   loader: require.resolve('url-loader'),
+      //   options: {
+      //     name: 'static/media/[name].[hash:8].[ext]',
+      //   },
+      // },
 
     ]
   },

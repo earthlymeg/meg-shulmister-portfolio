@@ -386,7 +386,8 @@ a, a:hover {
   }
 
   .sm-screen{
-      font-family: 'Apple';
+      
+    font-family: 'Mont';
       font-size: 30px;
       position: absolute;
       margin: 0;
@@ -396,6 +397,7 @@ a, a:hover {
     /* margin-left: -50px; */
     width: 100px;
     height: 100px;
+    font-family: 'Mont';
   }
 
   .sub-sm{
@@ -403,4 +405,14 @@ a, a:hover {
       font-size: 20px;
       margin: 0;
       padding: 0;
+      font-family: 'Mont';
   }
+
+  .paw{
+      height: 70px !important;
+      width: 70px !important;
+     float: right !important;
+     margin-right: 5px;
+  }
+
+ 
