@@ -12,7 +12,7 @@ const App = () => {
     const [currentY, setcurrentY] = useState(0);
     const [headerView, setheaderView] = useState(true);
 
-  console.log(paw)
+    console.log(paw)
 
     useEffect(() => {
         window.onscroll = () => {
@@ -50,9 +50,18 @@ const App = () => {
                                 </Navbar.Collapse>
                             </Navbar>
                             <div className="d-lg-none sm-screen">
-                            Welcome!
-                            <br></br> I'm Meg 😁 <br></br>
-                            <span className="e">I build web applications.</span>
+                                <span className="welcome">Welcome! I am</span>
+
+                                <br></br> Meg Shulmister <br></br><br></br>
+                                <span className="e">I build web applications.</span>
+                                <span class="fa-stack fa-3x">
+                                <i className="fa fa-heart"></i>
+                                    <span class="fa fa-stack-1x">
+                                        <span className="text-heart">
+                                           {/* Contact Me */}
+    </span>
+                                    </span>
+                                </span>
                             </div>
 
                         </Col>

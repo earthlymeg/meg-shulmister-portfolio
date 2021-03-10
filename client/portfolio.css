@@ -388,16 +388,16 @@ a, a:hover {
   .sm-screen{
       
     font-family: 'Mont';
-      font-size: 30px;
+      font-size: 40px;
       position: absolute;
-      margin: 0;
-    top: 50%;
-    left: 50%;
-    /* margin-top: -50px; */
-    /* margin-left: -50px; */
-    width: 100px;
-    height: 100px;
+    margin-top: 200px;
+    margin-left: 10px;
+    /* margin-left: 40%; */
+    width: 90vw;
+    height: max-content;
     font-family: 'Mont';
+    text-shadow: 3px 3px 9px rgba(88, 150, 150, 0.66);
+
   }
 
   .sub-sm{
@@ -415,4 +415,23 @@ a, a:hover {
      margin-right: 5px;
   }
 
- 
+ .welcome {
+     font-size: 20px;
+     text-shadow: 3px 3px 9px rgba(88, 150, 150, 0.66);
+
+ }
+
+ .fa.fa-heart {
+    background: -webkit-linear-gradient(rgb(245, 159, 241), rgb(108, 8, 117));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 50%;
+ }
+
+ .text-heart{
+    display:block; 
+    /* margin-top:-20px; */
+    font-size: 20px;
+    font-family: 'Mont';
+    box-shadow: black;
+ }
