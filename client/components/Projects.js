@@ -6,7 +6,7 @@ import sdc from '../images/sdc.png';
 
 const Projects = () => {
     return (
-        <Container fluid className="justify-content-center">
+        <Container fluid className="justify-content-center projCon">
             <Row className="justify-content-center">
                 <h1 className="fancy-text">My Work</h1>
             </Row>
@@ -15,7 +15,7 @@ const Projects = () => {
                     <Card className="work-card">
                         <Card.Img variant="top" src={fec} />
                         <Card.Body className="justify-content-center">
-                            <Card.Title style={{textAlign: 'center'}}>Front End E-Commerce Website</Card.Title>
+                            <Card.Title >Front End E-Commerce Website</Card.Title>
                             <Card.Text>
                                 React / JavaScript / Bootstrap / CSS /  <a href="https://github.com/earthlymeg/proxy-2/" target="_blank" >[ GitHub ]</a>
                                
@@ -25,14 +25,13 @@ const Projects = () => {
                     </Card>
 
                 </Col>
-                <Col className="align-item-center projCol">
+                <Col className="align-item-center projCol second">
                 <Card className="work-card">
                         <Card.Img variant="top" src={sdc} />
-                        <Card.Body>
+                        <Card.Body className="justify-content-center">
                             <Card.Title>System Design</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                            JavaScript / PostgreSQL / New Relic / k6 / Docker <a href="https://github.com/Teddi-s-Angels/meg-sdc" target="_blank" >[ GitHub ]</a>
                             </Card.Text>
                             {/* <Button variant="primary">Go somewhere</Button> */}
                         </Card.Body>

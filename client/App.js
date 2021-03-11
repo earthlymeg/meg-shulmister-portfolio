@@ -31,12 +31,11 @@ const App = () => {
 
     return (
         <div className="App" >
-            <Container fluid>
+            {/* <Container fluid> */}
                 <section id="home">
                     <Row className="justify-content-center">
                         <Col>
                             <Navbar collapseOnSelect expand="lg" bg="none" variant="dark">
-                                {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
                                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                                 <Navbar.Collapse id="responsive-navbar-nav">
                                     <Nav className="mr-auto">
@@ -65,20 +64,20 @@ const App = () => {
                             </div>
 
                         </Col>
+                        {headerView ? <nav class="navbar fixed-bottom header justify-content-end">
+                            <span className="header">Meg <br></br>Shulmister</span>
+                        </nav> : null}
                         {/* <Col className="flower"> <img src={flower}/>
 </Col> */}
-                        <Col className="col2">
+                        {/* <Col className="col2">
                             <div align="right" className="paw">
                                 <img src={paw} className="paw"></img>
                             </div>
-                            {headerView ? <nav class="navbar fixed-bottom header justify-content-end">
-                                <span className="header">Meg <br></br>Shulmister</span>
-                            </nav> : null}
-                        </Col>
+                        </Col> */}
                     </Row>
                 </section>
-            </Container>
-            <Container fluid>
+            {/* </Container> */}
+            {/* <Container fluid> */}
 
                 <section id="about" >
                     <About />
@@ -90,7 +89,7 @@ const App = () => {
                     <Contact />
                 </section>
 
-            </Container>
+            {/* </Container> */}
         </div>
     );
 };

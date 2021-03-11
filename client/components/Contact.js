@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const Contact = () => {
     return (
         <Container fluid className="justify-content-center">
-            <Row className="justify-content-center">
+            <Row className="justify-content-center conRow">
 
             </Row>
             <Row>
