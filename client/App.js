@@ -32,7 +32,7 @@ const App = () => {
     return (
         <div className="App" >
             <Container fluid>
-                <section id="home" className="stuff">
+                <section id="home">
                     <Row className="justify-content-center">
                         <Col>
                             <Navbar collapseOnSelect expand="lg" bg="none" variant="dark">

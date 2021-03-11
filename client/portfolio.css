@@ -11,8 +11,8 @@ html{
 
 html, body
 {
-    width: 100vw !important;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
     margin: 0px;
     padding: 0px;
     /* overflow-x: hidden;  */
@@ -86,9 +86,9 @@ body {
     }
 
     section{
-        padding: 0;
-        margin: 0;
-        width: 100vw !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
     }
    
     
@@ -99,7 +99,7 @@ body {
     section{
         padding: 0 !important;
         margin: 0 !important;
-        width: 100vw !important;
+        width: 100% !important;
     }
 
     html, body{
@@ -114,7 +114,11 @@ body {
         font-size: 35px !important;
         text-align: left !important;
     }
-
+/* 
+    .sm-screen{
+        margin-top: 80% !important;
+        margin-left: 20% !important;
+    } */
 }
 
 @media only screen and (max-width: 400px) {
@@ -366,10 +370,10 @@ a, a:hover {
   .work-card{
       /* border-radius: 50% !important; */
       color: 'black';
-      /* border-radius: 20px !important; */
       height: 370px; 
+      font-family: 'Mont';
       width: 500px;
-      background-color: pink !important;
+      background-color: rgba(65, 63, 189, 0.596) !important;
       font-size: 10px;
       opacity: 0.9;
             text-align: center;
@@ -383,8 +387,11 @@ a, a:hover {
       box-shadow: 0 1px 2px rgba(0,0,0,0.15);
     transition: box-shadow 0.3s ease-in-out;
     opacity: 100;
-    cursor: pointer;
 
+  }
+
+  .work-card a {
+      color: white;
   }
 
   .sm-screen{
