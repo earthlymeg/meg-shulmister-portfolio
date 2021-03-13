@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/earthlymeg/meg-shulmister-portfolio#readme",
   "dependencies": {
+    "@emotion/react": "^11.1.5",
     "bootstrap": "^4.6.0",
     "css-loader": "^5.0.2",
     "express": "^4.17.1",

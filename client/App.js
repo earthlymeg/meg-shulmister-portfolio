@@ -6,14 +6,23 @@ import Contact from './components/Contact'
 import Projects from './components/Projects'
 import flower from './images/flower.png';
 import paw from './images/paw.png'
+import { css } from "@emotion/react";
 import ClipLoader from "react-spinners/ClipLoader";
 
+const override = css`
+  display: block;
+  margin: 0 auto;
+  margin-top: 20% !important;
+  border-color: pink;
+`;
 
 const App = () => {
 
     const [currentY, setcurrentY] = useState(0);
     const [headerView, setheaderView] = useState(true);
     const [isLoading, setIsLoading] = useState(true);
+    let [loading, setLoading] = useState(true);
+    let [color, setColor] = useState("#ffffff");
 
     useEffect(() => {
         setTimeout(() => {
@@ -109,7 +118,16 @@ const App = () => {
 
 if (isLoading) {
     return (
-        <ClipLoader loading={isLoading} />
+        <div className="sweet-loading">
+        {/* <button onClick={() => setLoading(!loading)}>Toggle Loader</button>
+        <input
+          value={color}
+          onChange={(input) => setColor(input.target.value)}
+          placeholder="Color of the loader"
+        /> */}
+  
+        <ClipLoader color={color} loading={loading} css={override} size={150} />
+      </div>
     );
 }
 };
