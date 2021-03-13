@@ -17,7 +17,7 @@ const Projects = () => {
                         <Card.Body className="justify-content-center">
                             <Card.Title >Front End E-Commerce Website</Card.Title>
                             <Card.Text>
-                                React / JavaScript / Bootstrap / CSS /  <a href="https://github.com/earthlymeg/proxy-2/" target="_blank" >[ GitHub ]</a>
+                                React / JavaScript / Bootstrap / CSS  <a href="https://github.com/earthlymeg/proxy-2/" target="_blank" >[ GitHub ]</a>
                                
                             </Card.Text>
                             {/* <Button variant="primary">Go somewhere</Button> */}
