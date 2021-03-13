@@ -119,12 +119,33 @@ html{
         font-size: 35px !important;
         text-align: left !important;
     }
-/* 
-    .sm-screen{
-        margin-top: 80% !important;
-        margin-left: 20% !important;
-    } */
+
 }
+
+@media only screen and (max-width: 414px) {
+    .projCon {
+        margin-top: 480px !important;
+    }
+    .headshot {
+        height: 200px !important;
+        width: 200px !important;
+    }
+
+  #projects {
+      margin-bottom: 180px !important;
+  }
+  #contact {
+    background: url('./images/rainbow.jpg') !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+ 
+}
+}
+
 
 @media only screen and (max-width: 400px) {
    

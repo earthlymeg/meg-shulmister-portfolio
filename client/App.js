@@ -74,32 +74,17 @@ const App = () => {
 
                             <br></br> Meg Shulmister <br></br><br></br>
                             <span className="e">I build web applications.</span>
-                            {/* <span class="fa-stack fa-3x">
-            <i className="fa fa-heart"></i>
-            <span class="fa fa-stack-1x">
-            <span className="text-heart">
             
-            </span>
-            </span>
-        </span> */}
                         </div>
 
                     </Col>
                     {headerView ? <nav class="navbar fixed-bottom header justify-content-end">
                         <span className="header">Meg <br></br>Shulmister</span>
                     </nav> : null}
-                    {/* <Col className="flower"> <img src={flower}/>
-    </Col> */}
-                    {/* <Col className="col2">
-    <div align="right" className="paw">
-    <img src={paw} className="paw"></img>
-    </div>
-</Col> */}
+                   
                 </Row>
             </section>
-            {/* </Container> */}
-            {/* <Container fluid> */}
-
+          
             <section id="about" >
                 <About />
             </section>
@@ -110,7 +95,6 @@ const App = () => {
                 <Contact />
             </section>
 
-            {/* </Container> */}
         </div>
     
 
@@ -119,12 +103,6 @@ const App = () => {
 if (isLoading) {
     return (
         <div className="sweet-loading">
-        {/* <button onClick={() => setLoading(!loading)}>Toggle Loader</button>
-        <input
-          value={color}
-          onChange={(input) => setColor(input.target.value)}
-          placeholder="Color of the loader"
-        /> */}
   
         <ClipLoader color={color} loading={loading} css={override} size={150} />
       </div>
