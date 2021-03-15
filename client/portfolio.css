@@ -118,14 +118,17 @@ html{
         height: 300px !important;
         margin-top: 50% !important;
     }
-
-    #projects {
-        margin-top: 50px !important;
+    #about {
+        margin-top: 80px !important;
+    }
+    .about {
+        margin-bottom: 100px !important;
     }
 
     .sm-screen{
         margin-top: 70% !important;
         margin-left: 10% !important;
+        /* font-size: 80px !important; */
     }
 }
 
@@ -346,15 +349,6 @@ transition: all 1s ease;
     transition: all .4s ease !important;
 
 }  
-
-#about{
-    /* width:100vw !important;
-    min-height: 100vh !important; */
-    /* background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
-    
-}
-
 
 #contact {
     background: url(./images/me.jpg);   

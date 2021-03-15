@@ -64,7 +64,7 @@ const App = () => {
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
-              <div className="d-lg-none sm-screen">
+              <div className="d-xlg-none sm-screen">
                 <span className="welcome">Welcome! I am</span>
 
                 <br />

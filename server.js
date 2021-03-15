@@ -1,10 +1,10 @@
 const express = require('express');
-const path = require('path');
+// const path = require('path');
 const port = process.env.PORT || 8081;
 const app = express();
 
 // the __dirname is the current directory from where the script is running
-app.use(express.static(__dirname + '/dist'));
+app.use(express.static(`${__dirname}/dist`));
 
 // send the user to index html page inspite of the url
 // app.get('*', (req, res) => {
@@ -12,5 +12,6 @@ app.use(express.static(__dirname + '/dist'));
 // });
 
 app.listen(port, () => {
-    console.log('serving your beautiful app @ port:', port)
+  // eslint-disable-next-line no-console
+  console.log('serving your beautiful app @ port:', port);
 });
