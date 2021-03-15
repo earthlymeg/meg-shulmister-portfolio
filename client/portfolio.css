@@ -132,14 +132,43 @@ html{
     }
 }
 
+@media only screen and (max-width: 1000px)  {
+ 
+
+    /* .header{
+        display: none;
+    }
+    .socialbtns .fa {
+        margin: 3px !important;
+        font-size: 35px !important;
+        text-align: left !important;
+    }
+    .headshot {
+        width: 300px !important;
+        height: 300px !important;
+        margin-top: 50% !important;
+    } */
+    #about {
+        margin-top: 50px !important;
+    }
+    .about {
+        margin-bottom: 70px !important;
+    }
+
+  #projects {
+    margin-top: 180px !important;
+}
+
+}
+
 @media only screen and (max-width: 414px) {
     .App{
         width: 100vw !important;
         overflow-x: hidden !important; 
       }   
-    .projCon {
+    /* .projCon {
         margin-top: 480px !important;
-    }
+    } */
     .headshot {
         height: 200px !important;
         width: 200px !important;
@@ -157,11 +186,20 @@ html{
 
     .headshot{
         margin-top: 0 !important;
+       
     }
 
   #projects {
       margin-bottom: 180px !important;
+      margin-top: 20px !important;
   }
+
+  #about {
+      height: 100% !important;
+  }
+  /* .my-work{
+      top: 130px !important;
+  } */
   #contact {
     background: url('./images/rainbow.jpg') !important;
     -webkit-background-size: cover !important;
@@ -197,20 +235,12 @@ html{
         background-repeat: no-repeat !important;
        
       }
-      .projCon {
-          margin-top: 700px !important;
-      }
-      .contact-col {
-          margin-top: 60% !important;
-      }
-      .projCol.second {
-        margin-bottom: 60px !important;
-    }
+
 
     #projects {
         height: 100% !important;
-        margin-bottom: 20px !important;
-        margin-top: 600px !important
+        margin-bottom: 30px !important;
+        /* margin-top: 600px !important */
     }
      
 
@@ -224,7 +254,7 @@ html{
     }
 
     .headshotCol{
-        margin-bottom: 100px !important;
+        margin-bottom: 50px !important;
     }
 }
 

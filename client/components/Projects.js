@@ -10,7 +10,7 @@ import sdc from '../images/sdc.png';
 
 const Projects = () => (
   <Container fluid className="justify-content-center projCon">
-    <Row className="justify-content-center">
+    <Row className="justify-content-center my-work">
       <h1 className="fancy-text">My Work</h1>
     </Row>
     <Row className="justify-content-center">
