@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import '../portfolio.css';
+import '../styles.css';
 import Meg from '../images/headshot.jpg';
 
 function About() {

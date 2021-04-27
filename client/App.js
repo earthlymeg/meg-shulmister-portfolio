@@ -3,7 +3,7 @@ import {
   Row, Col, Navbar, Nav,
 } from 'react-bootstrap';
 import React, { useEffect, useState } from 'react';
-import './portfolio.css';
+import './styles.css';
 import { css } from '@emotion/react';
 import ClipLoader from 'react-spinners/ClipLoader';
 import About from './components/About';

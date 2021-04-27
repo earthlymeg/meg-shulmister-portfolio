@@ -4,9 +4,9 @@ import React from 'react';
 import {
   Container, Col, Row, Card,
 } from 'react-bootstrap';
-import '../portfolio.css';
-import fec from '../images/fec.png';
-import sdc from '../images/sdc.png';
+import '../styles.css';
+import fec from '../images/fec2.jpg';
+import sdc from '../images/sdc.jpg';
 
 const Projects = () => (
   <Container fluid className="justify-content-center projCon">
